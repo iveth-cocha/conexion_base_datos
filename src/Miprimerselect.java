@@ -4,7 +4,8 @@ public class Miprimerselect {
                           //"UBICACION DE LA BASE/nombase"
     static final String DB_URL ="jdbc:mysql://localhost/Principal";
     static final String USER="root";
-    static final String PASS="root_bas3";
+    static final String PASS="poo123";
+            //contraseña u"root_bas3";
     static final String QUERY ="SELECT * FROM Estudiantes1";//nombretabla
 
 
@@ -21,7 +22,7 @@ public class Miprimerselect {
                 System.out.println("Ciudad: "+rs.getString("ciudad"));
                 System.out.println("Cedula: "+rs.getString("cedula"));
                 System.out.println("Telefono: "+rs.getString("telefono"));
-                System.out.println("Contraseña: "+rs.getString("pasword"));
+                System.out.println("Contraseña: "+rs.getString("contra"));
                 System.out.println("--------------------------------------------------");
                 //los numeric los pogo como string porque con float se pone decimal
 
